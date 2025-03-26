@@ -53,11 +53,20 @@ import pandas as pd
 # print(f"Worst product(ID: {products_ids[worst_product_index]}, Total Sales: {total_sales[worst_product_index]},Price:{prices[worst_product_index]})")
 
 
-data = {
-    'Name': ['John', 'Anna', 'Peter', 'Alex'],
-    'Age': [28,52,32,14],
-    'City': ['New York','Paris','Berlin','London']
-}
+# data = {
+#     'Name': ['John', 'Anna', 'Peter', 'Alex'],
+#     'Age': [28,52,32,14],
+#     'City': ['New York','Paris','Berlin','London']
+# }
+#
+# df = pd.DataFrame(data)
+# print(df.describe())
 
-df = pd.DataFrame(data)
-print(df)
+# df = pd.read_csv('info.csv')
+#
+# # print(df)
+#
+# print(df['Имя'])
+# print(df['Возраст'])
+#
+# print(df.describe())
