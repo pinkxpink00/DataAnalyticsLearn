@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 # arr = np.array([1,2,3,4,5])
 # matrix = np.array([
@@ -29,24 +30,34 @@ import numpy as np
 # above_mean = salaries[salaries>mean_salary]
 # print(f"Above mean: {above_mean}")
 
-products_ids = np.array([100, 101, 102, 103, 104, 105])
-prices = np.array([20, 11, 1, 51, 202, 68])
-quantities = np.array([10, 5, 23, 36, 26, 8])
-dates = np.array([
-    '2023-07-01','2023-07-03','2023-07-07','2023-07-06','2023-07-05',
-'2023-07-9','2023-07-12','2023-07-23','2023-07-13','2023-07-11'
-])
+# products_ids = np.array([100, 101, 102, 103, 104, 105])
+# prices = np.array([20, 11, 1, 51, 202, 68])
+# quantities = np.array([10, 5, 23, 36, 26, 8])
+# dates = np.array([
+#     '2023-07-01','2023-07-03','2023-07-07','2023-07-06','2023-07-05',
+# '2023-07-9','2023-07-12','2023-07-23','2023-07-13','2023-07-11'
+# ])
+#
+# total_sales = prices * quantities
+# print(f"Total Sales: {total_sales}")
+#
+# total_revenue = np.sum(total_sales)
+# print(f"Total Revenue: {total_revenue}")
+#
+# average_check = np.mean(total_sales)
+# print(f"Average check: {average_check:.2f}")
+#
+# best_product_index = np.argmax(total_sales)
+# worst_product_index = np.argmin(total_sales)
+# print(f"Best product(ID: {products_ids[best_product_index]},Total Sales: {total_sales[best_product_index]}, Price:{prices[best_product_index]})")
+# print(f"Worst product(ID: {products_ids[worst_product_index]}, Total Sales: {total_sales[worst_product_index]},Price:{prices[worst_product_index]})")
 
-total_sales = prices * quantities
-print(f"Total Sales: {total_sales}")
 
-total_revenue = np.sum(total_sales)
-print(f"Total Revenue: {total_revenue}")
+data = {
+    'Name': ['John', 'Anna', 'Peter', 'Alex'],
+    'Age': [28,52,32,14],
+    'City': ['New York','Paris','Berlin','London']
+}
 
-average_check = np.mean(total_sales)
-print(f"Average check: {average_check:.2f}")
-
-best_product_index = np.argmax(total_sales)
-worst_product_index = np.argmin(total_sales)
-print(f"Best product(ID: {products_ids[best_product_index]},Total Sales: {total_sales[best_product_index]}, Price:{prices[best_product_index]})")
-print(f"Worst product(ID: {products_ids[worst_product_index]}, Total Sales: {total_sales[worst_product_index]},Price:{prices[worst_product_index]})")
+df = pd.DataFrame(data)
+print(df)
