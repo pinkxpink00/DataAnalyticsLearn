@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9dae60-bec2-4743-9b93-3db53792f0db" name="Changes" comment="test pandas">
-      <change afterPath="$PROJECT_DIR$/info.csv" afterDir="false" />
+    <list default="true" id="8d9dae60-bec2-4743-9b93-3db53792f0db" name="Changes" comment="test pandas2">
+      <change afterPath="$PROJECT_DIR$/platforms.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -92,24 +92,22 @@
       <option name="project" value="LOCAL" />
       <updated>1743018121830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test pandas2">
+      <option name="closed" value="true" />
+      <created>1743018660746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743018660746</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="test numpy library" />
     <MESSAGE value="test pandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="test pandas" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="test pandas2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test pandas2" />
   </component>
 </project>
